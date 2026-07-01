@@ -1,0 +1,19 @@
+{
+	"values": {
+		"dragonsurvival:starfire_dragon": {
+			"neoforge:conditions": [
+				{
+					"type": "dragonsurvival:registered",
+					"registry": "dragonsurvival:dragon_species",
+					"value": "dragonsurvival:starfire_dragon"
+				}
+			],
+			"spawn_position": [
+				-200,
+				50,
+				0
+			],
+			"structure": "dragonsurvival:end_spawn_platforms/cave_end_spawn_platform"
+		}
+	}
+}

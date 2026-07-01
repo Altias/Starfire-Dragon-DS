@@ -1,0 +1,27 @@
+{
+	"values": {
+		"dragonsurvival:starfire_dragon": {
+			"neoforge:conditions": [
+				{
+					"type": "dragonsurvival:registered",
+					"registry": "dragonsurvival:dragon_species",
+					"value": "dragonsurvival:starfire_dragon"
+				}
+			],
+			"effects": [
+				{
+					"duration": 400,
+					"effect": "dragonsurvival:cave_fire"
+				},
+				{
+					"duration": 400,
+					"effect": "dragonsurvival:sturdy_skin"
+				}
+			],
+			"payment_data": {
+				"duration_multiplier": 30,
+				"experience_cost": 60
+			}
+		}
+	}
+}

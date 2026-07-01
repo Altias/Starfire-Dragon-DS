@@ -1,0 +1,53 @@
+{
+	"values": {
+		"dragonsurvival:starfire_dragon": {
+			"neoforge:conditions": [
+				{
+					"type": "dragonsurvival:registered",
+					"registry": "dragonsurvival:dragon_species",
+					"value": "dragonsurvival:starfire_dragon"
+				}
+			],
+			"dragonsurvival:adult": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/starfire_dragon/adult_glow.png",
+					"skin": "dragonsurvival:textures/dragon/starfire_dragon/adult.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_main.png"
+				}
+			},
+			"dragonsurvival:ancient": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/starfire_dragon/ancient_glow.png",
+					"skin": "dragonsurvival:textures/dragon/starfire_dragon/ancient.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_main.png"
+				}
+			},
+			"dragonsurvival:newborn": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/starfire_dragon/newborn_glow.png",
+					"skin": "dragonsurvival:textures/dragon/starfire_dragon/newborn.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/newborn_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/cave/newborn_stage_main.png"
+				}
+			},
+			"dragonsurvival:young": {
+				"default_skin": {
+					"glow_skin": "dragonsurvival:textures/dragon/starfire_dragon/young_glow.png",
+					"skin": "dragonsurvival:textures/dragon/starfire_dragon/young.png"
+				},
+				"growth_icon": {
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/young_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/cave/young_stage_main.png"
+				}
+			}
+		}
+	}
+}
