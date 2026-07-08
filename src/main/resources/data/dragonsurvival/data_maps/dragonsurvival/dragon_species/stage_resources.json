@@ -14,8 +14,8 @@
 					"skin": "dragonsurvival:textures/dragon/starfire_dragon/adult.png"
 				},
 				"growth_icon": {
-					"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_hover.png",
-					"icon": "dragonsurvival:textures/gui/custom/stage/cave/adult_stage_main.png"
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/starfire/adult_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/starfire/adult_stage_main.png"
 				}
 			},
 			"dragonsurvival:ancient": {
@@ -24,8 +24,8 @@
 					"skin": "dragonsurvival:textures/dragon/starfire_dragon/ancient.png"
 				},
 				"growth_icon": {
-					"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_hover.png",
-					"icon": "dragonsurvival:textures/gui/custom/stage/cave/ancient_stage_main.png"
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/starfire/ancient_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/starfire/ancient_stage_main.png"
 				}
 			},
 			"dragonsurvival:newborn": {
@@ -34,8 +34,8 @@
 					"skin": "dragonsurvival:textures/dragon/starfire_dragon/newborn.png"
 				},
 				"growth_icon": {
-					"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/newborn_stage_hover.png",
-					"icon": "dragonsurvival:textures/gui/custom/stage/cave/newborn_stage_main.png"
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/starfire/newborn_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/starfire/newborn_stage_main.png"
 				}
 			},
 			"dragonsurvival:young": {
@@ -44,8 +44,8 @@
 					"skin": "dragonsurvival:textures/dragon/starfire_dragon/young.png"
 				},
 				"growth_icon": {
-					"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/young_stage_hover.png",
-					"icon": "dragonsurvival:textures/gui/custom/stage/cave/young_stage_main.png"
+					"hover_icon": "dragonsurvival:textures/gui/custom/stage/starfire/young_stage_hover.png",
+					"icon": "dragonsurvival:textures/gui/custom/stage/starfire/young_stage_main.png"
 				}
 			}
 		}

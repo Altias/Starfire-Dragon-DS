@@ -8,7 +8,7 @@
 					"value": "dragonsurvival:center"
 				}
 			],
-			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/center/cave_dragon.png"
+			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/center/starfire_dragon.png"
 		},
 		"dragonsurvival:east": {
 			"neoforge:conditions": [
@@ -18,7 +18,7 @@
 					"value": "dragonsurvival:east"
 				}
 			],
-			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/east/cave_dragon.png"
+			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/east/starfire_dragon.png"
 		},
 		"dragonsurvival:north": {
 			"neoforge:conditions": [
@@ -28,7 +28,7 @@
 					"value": "dragonsurvival:north"
 				}
 			],
-			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/north/cave_dragon.png"
+			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/north/starfire_dragon.png"
 		},
 		"dragonsurvival:south": {
 			"neoforge:conditions": [
@@ -38,7 +38,7 @@
 					"value": "dragonsurvival:south"
 				}
 			],
-			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/south/cave_dragon.png"
+			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/south/starfire_dragon.png"
 		},
 		"dragonsurvival:west": {
 			"neoforge:conditions": [
@@ -48,7 +48,7 @@
 					"value": "dragonsurvival:east"
 				}
 			],
-			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/west/cave_dragon.png"
+			"dragonsurvival:starfire_dragon": "dragonsurvival:textures/gui/custom/body/west/starfire_dragon.png"
 		}
 	}
 }

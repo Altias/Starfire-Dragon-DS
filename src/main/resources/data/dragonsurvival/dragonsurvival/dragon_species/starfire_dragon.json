@@ -1,5 +1,5 @@
 {
-	"abilities": "#dragonsurvival:cave_dragon",
+	"abilities": "#dragonsurvival:starfire_dragon",
 	"misc_resources": {
 		"ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/cave/cast_bar.png",
 		"altar_banner": "dragonsurvival:textures/gui/custom/altar/starfire/altar_icon.png",
@@ -9,16 +9,16 @@
 			"saturation_icon": "\\uEA05"
 		},
 		"growth_crystal": {
-			"empty": "dragonsurvival:textures/gui/custom/stage/cave/point_main.png",
-			"full": "dragonsurvival:textures/gui/custom/stage/cave/point_hover.png"
+			"empty": "dragonsurvival:textures/gui/custom/stage/starfire/point_main.png",
+			"full": "dragonsurvival:textures/gui/custom/stage/starfire/point_hover.png"
 		},
 		"growth_left_arrow": {
-			"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/left_arrow_hover.png",
-			"icon": "dragonsurvival:textures/gui/custom/stage/cave/left_arrow_main.png"
+			"hover_icon": "dragonsurvival:textures/gui/custom/starfire/cave/left_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/starfire/left_arrow_main.png"
 		},
 		"growth_right_arrow": {
-			"hover_icon": "dragonsurvival:textures/gui/custom/stage/cave/right_arrow_hover.png",
-			"icon": "dragonsurvival:textures/gui/custom/stage/cave/right_arrow_main.png"
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/starfire/right_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/starfire/right_arrow_main.png"
 		},
 		"mana_sprites": {
 			"empty": "dragonsurvival:textures/gui/custom/mana_icons/cave/empty.png",
@@ -26,8 +26,8 @@
 			"recovery": "dragonsurvival:textures/gui/custom/mana_icons/cave/recovery.png",
 			"reserved": "dragonsurvival:textures/gui/custom/mana_icons/cave/reserved.png"
 		},
-		"primary_color": "#E84141",
-		"secondary_color": "#730B0B"
+		"primary_color": "#CBBF23",
+		"secondary_color": "#FDFFD1"
 	},
-	"penalties": "#dragonsurvival:cave_dragon"
+	"penalties": "#dragonsurvival:starfire_dragon"
 }

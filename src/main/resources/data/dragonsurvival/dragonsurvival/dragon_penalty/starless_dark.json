@@ -1,0 +1,28 @@
+{
+  "condition": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "location": {
+        "position": {
+          "y": {
+            "max": -1
+          }
+        }
+      }
+    }
+  },
+  "effect": {
+    "penalty_type": "dragonsurvival:mob_effect",
+    "potion": {
+      "amplifier": 0.0,
+      "duration": 200.0,
+      "effect_particles": true,
+      "effects": "starfire_dragon:starless_dark"
+    }
+  },
+  "trigger": {
+    "penalty_trigger": "dragonsurvival:instant",
+    "trigger_rate": 20
+  }
+}
