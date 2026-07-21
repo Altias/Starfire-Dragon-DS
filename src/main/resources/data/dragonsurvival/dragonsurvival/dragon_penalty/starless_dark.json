@@ -24,5 +24,6 @@
   "trigger": {
     "penalty_trigger": "dragonsurvival:instant",
     "trigger_rate": 20
-  }
+  },
+  "icon": "dragonsurvival:penalties/cave/cold_weakness"
 }

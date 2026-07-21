@@ -1,14 +1,7 @@
 package net.altias.starfire_dragon.effects;
 
 import by.dragonsurvivalteam.dragonsurvival.DragonSurvival;
-import by.dragonsurvivalteam.dragonsurvival.common.effects.BlastDustedEffect;
-import by.dragonsurvivalteam.dragonsurvival.common.effects.BurnEffect;
-import by.dragonsurvivalteam.dragonsurvival.common.effects.ChargedEffect;
-import by.dragonsurvivalteam.dragonsurvival.common.effects.DrainEffect;
 import by.dragonsurvivalteam.dragonsurvival.common.effects.ModifiableMobEffect;
-import by.dragonsurvivalteam.dragonsurvival.common.effects.StressEffect;
-import by.dragonsurvivalteam.dragonsurvival.common.effects.WingDisablingEffect;
-import by.dragonsurvivalteam.dragonsurvival.registry.DSAttributes;
 import by.dragonsurvivalteam.dragonsurvival.registry.datagen.Translation;
 import by.dragonsurvivalteam.dragonsurvival.registry.datagen.Translation.Translations;
 import by.dragonsurvivalteam.dragonsurvival.registry.datagen.Translation.Type;
@@ -86,6 +79,7 @@ public class ModEffects {
                         Operation.ADD_MULTIPLIED_TOTAL)
                 );
         SOUL_SEEKER = REGISTRY.register("soul_seeker", () -> new ModifiableMobEffect(MobEffectCategory.BENEFICIAL, 0, false));
-        STARSIGHT = REGISTRY.register("starsight", StarsightEffect::new);
+        STARSIGHT = REGISTRY.register("starsight", () -> new StarsightEffect());
+
     }
 }

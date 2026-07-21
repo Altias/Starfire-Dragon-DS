@@ -3,7 +3,8 @@
   "package": "net.altias.starfire_dragon.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "EntityGlowMixin"
+    "EntityGlowMixin",
+    "OptionInstanceAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

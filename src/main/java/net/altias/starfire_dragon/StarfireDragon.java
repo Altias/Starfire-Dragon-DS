@@ -3,6 +3,7 @@ package net.altias.starfire_dragon;
 import com.mojang.logging.LogUtils;
 import net.altias.starfire_dragon.effects.ModEffects;
 import net.altias.starfire_dragon.loot_conditions.ModLootConditions;
+import net.altias.starfire_dragon.network.StarsightTogglePacket;
 import net.altias.starfire_dragon.particles.ModParticles;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;

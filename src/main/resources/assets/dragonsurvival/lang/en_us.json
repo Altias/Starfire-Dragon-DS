@@ -2,8 +2,8 @@
   "dragon_species.dragonsurvival.starfire_dragon.altar.desc": "§7■ §6Starfire Dragons§r§7 are said to have souls that burn with §fgolden fire§r§7. They gain power from the stars, and are weakened when far from them.\n\n§2■ Features:§f§r§7 fire resistance, stronger and faster at night, golden fire magic.\n§4■ Weakness:§r deep underground.\n§6■ Diet:§r %s",
   "dragon_species.dragonsurvival.starfire_dragon.banner.desc": "§7■ §6Starfire Dragons§r§7 are said to have souls that burn with §fgolden fire§r§7. You gain power from the stars, and are weakened when far from them.\n\n■ You are an apex predator species, and must hunt meat to survive. Beware the deep depths of the earth, where the stars cannot reach you.",
   "dragon_species.dragonsurvival.starfire_dragon": "Starfire Dragon",
-  "dragon_ability.dragonsurvival.gold_fire_breath": "Gold Fire Breath",
-  "dragon_ability.dragonsurvival.gold_fire_breath.desc": "■ Breathe golden flames that will ignite whatever they touch.",
+  "dragon_ability.dragonsurvival.golden_fire_breath": "Gold Fire Breath",
+  "dragon_ability.dragonsurvival.golden_fire_breath.desc": "■ Breathe golden flames that will ignite whatever they touch.",
   "dragon_ability.dragonsurvival.fire_of_stars": "Fire of Stars",
   "dragon_ability.dragonsurvival.fire_of_stars.desc": "■ Under the light of stars, the fire in your soul grows stronger. Strike harder and faster.",
   "dragon_ability.dragonsurvival.starfire_wings": "Starfire Wings",
@@ -17,7 +17,14 @@
   "dragon_ability.dragonsurvival.inner_flame": "Inner Flame",
   "dragon_ability.dragonsurvival.inner_flame.desc": "■ Channel the flame in your soul to empower yourself temporarily in the starless dark beneath the earth.",
   "dragon_penalty.dragonsurvival.starless_dark": "■ Deep beneath the earth, far from the light of stars, your power wanes. Your attacks are weaker and your mining slower.",
+  "dragon_ability.dragonsurvival.star_burn": "Burn",
+  "dragon_ability.dragonsurvival.star_burn.desc": "■ Your target has a chance to receive the §c«Burned»§r effect from your attacks.\n\n■ The effect deals damage when the target §fmoves§r§7. The faster the movement, the §fmore damage§r§7 is done.\n\n■ §8Creatures with fire resistance are immune to this effect.§r",
+  "dragon_ability.dragonsurvival.starfire_immunity": "Fire Immunity",
+  "dragon_ability.dragonsurvival.starfire_immunity.desc": "■ Starfire dragons have innate §2immunity to fire§r.",
+  "dragon_ability.dragonsurvival.soul_seeker": "Soul Seeker",
+  "dragon_ability.dragonsurvival.soul_seeker.desc": "■ All living beings have a hint of starfire in their soul. This allows Starfire Dragons to §2sense living beings through walls§r§7.",
   "effect.starfire_dragon.starsight": "Starsight",
   "effect.starfire_dragon.fire_of_stars": "Fire of Stars",
-  "effect.starfire_dragon.soul_seeker": "Soul Seeker"
-}
+  "effect.starfire_dragon.soul_seeker": "Soul Seeker",
+  "ability_effect.starfire_dragon.starsight": "■ You have excellent night vision while out under the stars."
+  }
