@@ -3,8 +3,10 @@ package net.altias.starfire_dragon.datagen;
 import by.dragonsurvivalteam.dragonsurvival.DragonSurvival;
 import by.dragonsurvivalteam.dragonsurvival.registry.dragon.ability.DragonAbilities;
 import by.dragonsurvivalteam.dragonsurvival.registry.dragon.ability.DragonAbility;
+import by.dragonsurvivalteam.dragonsurvival.registry.dragon.penalty.DragonPenalty;
 import net.altias.starfire_dragon.StarfireDragon;
 import net.altias.starfire_dragon.datagen.abilities.StarfireDragonAbilities;
+import net.altias.starfire_dragon.datagen.penalties.StarfireDragonPenalties;
 import net.altias.starfire_dragon.datagen.tags.StarfireAbilityTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
@@ -37,6 +39,13 @@ public class ModDataGen {
                 DragonAbility.REGISTRY,
                 context -> {
                     StarfireDragonAbilities.registerAbilities(context);
+                }
+        );
+
+        builder.add(
+                DragonPenalty.REGISTRY,
+                context -> {
+                    StarfireDragonPenalties.registerPenalties(context);
                 }
         );
 

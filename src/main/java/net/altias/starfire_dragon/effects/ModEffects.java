@@ -50,6 +50,14 @@ public class ModEffects {
             comments = {"Starfire dragons are not hindered by darkness. As long as they're under the stars, anyway."}
     )})
     public static Holder<MobEffect> STARSIGHT;
+    @Translations({@Translation(
+            type = Type.EFFECT,
+            comments = {"Inner Flame"}
+    ), @Translation(
+            type = Type.EFFECT_DESCRIPTION,
+            comments = {"Starfire dragons flare their inner fire, resisting the darkness below the stars."}
+    )})
+    public static Holder<MobEffect> INNER_FLAME;
 
 
     public ModEffects() {
@@ -80,6 +88,7 @@ public class ModEffects {
                 );
         SOUL_SEEKER = REGISTRY.register("soul_seeker", () -> new ModifiableMobEffect(MobEffectCategory.BENEFICIAL, 0, false));
         STARSIGHT = REGISTRY.register("starsight", () -> new StarsightEffect());
+        INNER_FLAME = REGISTRY.register("inner_flame", () -> new ModifiableMobEffect(MobEffectCategory.BENEFICIAL, 0, false));
 
     }
 }

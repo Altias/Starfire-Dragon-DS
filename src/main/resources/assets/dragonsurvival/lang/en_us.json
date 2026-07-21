@@ -16,7 +16,8 @@
   "dragon_ability.dragonsurvival.starsight.desc":"■ You have excellent night vision while out under the stars.",
   "dragon_ability.dragonsurvival.inner_flame": "Inner Flame",
   "dragon_ability.dragonsurvival.inner_flame.desc": "■ Channel the flame in your soul to empower yourself temporarily in the starless dark beneath the earth.",
-  "dragon_penalty.dragonsurvival.starless_dark": "■ Deep beneath the earth, far from the light of stars, your power wanes. Your attacks are weaker and your mining slower.",
+  "dragon_penalty.dragonsurvival.starless_dark": "Starless Dark",
+  "dragon_penalty.dragonsurvival.starless_dark.desc": "■ Deep beneath the earth, far from the light of stars, your power wanes. §dYour attacks are weaker and your mining slower.§r\n\n■ The skill §2«Inner Flame»§r §7can help you resist this.\n",
   "dragon_ability.dragonsurvival.star_burn": "Burn",
   "dragon_ability.dragonsurvival.star_burn.desc": "■ Your target has a chance to receive the §c«Burned»§r effect from your attacks.\n\n■ The effect deals damage when the target §fmoves§r§7. The faster the movement, the §fmore damage§r§7 is done.\n\n■ §8Creatures with fire resistance are immune to this effect.§r",
   "dragon_ability.dragonsurvival.starfire_immunity": "Fire Immunity",
@@ -26,5 +27,7 @@
   "effect.starfire_dragon.starsight": "Starsight",
   "effect.starfire_dragon.fire_of_stars": "Fire of Stars",
   "effect.starfire_dragon.soul_seeker": "Soul Seeker",
+  "effect.starfire_dragon.starless_dark": "Starless Dark",
+  "effect.starfire_dragon.inner_flame": "Inner Flame",
   "ability_effect.starfire_dragon.starsight": "■ You have excellent night vision while out under the stars."
   }

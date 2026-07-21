@@ -5,6 +5,14 @@ import net.altias.starfire_dragon.effects.ModEffects;
 import net.altias.starfire_dragon.loot_conditions.ModLootConditions;
 import net.altias.starfire_dragon.network.StarsightTogglePacket;
 import net.altias.starfire_dragon.particles.ModParticles;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.PackLocationInfo;
+import net.minecraft.server.packs.PackSelectionConfig;
+import net.minecraft.server.packs.PackType;
+import net.minecraft.server.packs.PathPackResources;
+import net.minecraft.server.packs.repository.Pack;
+import net.minecraft.server.packs.repository.PackSource;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -14,8 +22,11 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.AddPackFindersEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import org.slf4j.Logger;
+
+import java.util.Optional;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(StarfireDragon.MODID)
@@ -28,6 +39,7 @@ public class StarfireDragon {
     public StarfireDragon(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(this::addPackFinders);
 
         ModParticles.REGISTRY.register(modEventBus);
         ModEffects.REGISTRY.register(modEventBus);
@@ -55,5 +67,23 @@ public class StarfireDragon {
         public static void onClientSetup(FMLClientSetupEvent event) {
 
         }
+    }
+
+    public void addPackFinders(AddPackFindersEvent event) {
+        if (event.getPackType() != PackType.SERVER_DATA) {
+            return;
+        }
+
+        event.addPackFinders(
+                ResourceLocation.fromNamespaceAndPath(
+                        StarfireDragon.MODID,
+                        "data/starfire_dragon/datapacks/unlock_wings_starfire"
+                ),
+                PackType.SERVER_DATA,
+                Component.literal("Unlock Wings (Starfire)"),
+                PackSource.BUILT_IN,
+                true,
+                Pack.Position.TOP
+        );
     }
 }
