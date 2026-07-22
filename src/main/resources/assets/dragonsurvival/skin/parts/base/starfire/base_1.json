@@ -1,0 +1,8 @@
+{
+  "key": "base_1",
+  "texture": "dragonsurvival:textures/dragon/custom/starfire_base_1.png",
+  "average_hue": 0.13145,
+  "applicable_species": [
+    "dragonsurvival:starfire_dragon"
+  ]
+}

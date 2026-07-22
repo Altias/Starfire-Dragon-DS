@@ -29,5 +29,12 @@
   "effect.starfire_dragon.soul_seeker": "Soul Seeker",
   "effect.starfire_dragon.starless_dark": "Starless Dark",
   "effect.starfire_dragon.inner_flame": "Inner Flame",
-  "ability_effect.starfire_dragon.starsight": "■ You have excellent night vision while out under the stars."
+  "ability_effect.starfire_dragon.starsight": "■ You have excellent night vision while out under the stars.",
+
+  "skin_part.dragonsurvival.starfire_dragon.base_0": "Starfire Scales",
+  "skin_part.dragonsurvival.starfire_dragon.base_1": "Large Scales",
+  "skin_part.dragonsurvival.starfire_dragon.base_2": "Ancient Scales",
+  "skin_part.dragonsurvival.starfire_dragon.base_3": "Base 3",
+  "skin_part.dragonsurvival.starfire_dragon.starfire_extra_wings_0": "Full Feathers",
+  "skin_part.dragonsurvival.starfire_dragon.starfire_extra_wings_1": "Lower Feathers"
   }

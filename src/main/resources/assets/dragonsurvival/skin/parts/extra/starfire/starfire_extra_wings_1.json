@@ -1,0 +1,8 @@
+{
+  "key": "starfire_extra_wings_1",
+  "texture": "dragonsurvival:textures/dragon/custom/starfire_extra_wings_1.png",
+  "average_hue": 0.1536,
+  "applicable_species": [
+    "dragonsurvival:starfire_dragon"
+  ]
+}
