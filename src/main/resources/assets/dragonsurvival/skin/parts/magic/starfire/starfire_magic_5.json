@@ -1,6 +1,6 @@
 {
-  "key": "cave_magic_5",
-  "texture": "dragonsurvival:textures/dragon/custom/cave_magic_5.png",
+  "key": "starfire_magic_5",
+  "texture": "dragonsurvival:textures/dragon/custom/starfire_magic_5.png",
   "average_hue": 0.10669108110170132,
   "applicable_species": [
     "dragonsurvival:starfire_dragon"

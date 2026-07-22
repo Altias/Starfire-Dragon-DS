@@ -3,17 +3,17 @@
   "stage": "dragonsurvival:young",
   "model": "dragonsurvival:dragon_model",
   "parts": {
-    "base": "base_7",
+    "base": "base_0",
     "bottom": "bottom_7",
     "eyes": "eyes_6",
     "horns": "horns_4",
     "spikes": "spikes_3",
     "claws": "claw_6",
     "teeth": "teeth_9",
-    "magic": "cave_magic_1",
-    "extra": "cave_extra_mouth_2",
+    "magic": "starfire_magic_1",
+    "extra": "none",
     "extra1": "none",
-    "extra2": "cave_extra_wings_4",
-    "extra3": "cave_extra_wings_3"
+    "extra2": "none",
+    "extra3": "none"
   }
 }
