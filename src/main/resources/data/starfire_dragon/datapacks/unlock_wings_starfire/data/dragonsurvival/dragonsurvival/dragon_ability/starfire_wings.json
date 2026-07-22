@@ -6,7 +6,7 @@
           "entity_effect": [
             {
               "effect_type": "dragonsurvival:flight",
-              "icon": "dragonsurvival:textures/ability_effect/cave_dragon_wings.png",
+              "icon": "dragonsurvival:textures/ability_effect/starfire_wings.png",
               "level_requirement": 1
             }
           ],
@@ -23,11 +23,11 @@
     "texture_entries": [
       {
         "from_level": 0,
-        "texture_resource": "dragonsurvival:abilities/cave/cave_wings_0"
+        "texture_resource": "dragonsurvival:abilities/starfire/starfire_wings_0"
       },
       {
         "from_level": 1,
-        "texture_resource": "dragonsurvival:abilities/cave/cave_wings_1"
+        "texture_resource": "dragonsurvival:abilities/starfire/starfire_wings_1"
       }
     ]
   }

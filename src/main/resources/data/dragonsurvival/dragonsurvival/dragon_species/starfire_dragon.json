@@ -3,7 +3,7 @@
 	"misc_resources": {
 		"ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/cave/cast_bar.png",
 		"altar_banner": "dragonsurvival:textures/gui/custom/altar/starfire/altar_icon.png",
-		"food_sprites": "dragonsurvival:textures/gui/custom/food_icons/cave_food_icons.png",
+		"food_sprites": "dragonsurvival:textures/gui/custom/food_icons/starfire_food_icons.png",
 		"food_tooltip": {
 			"nutrition_icon": "\\uEA02",
 			"saturation_icon": "\\uEA05"
@@ -13,7 +13,7 @@
 			"full": "dragonsurvival:textures/gui/custom/stage/starfire/point_hover.png"
 		},
 		"growth_left_arrow": {
-			"hover_icon": "dragonsurvival:textures/gui/custom/starfire/cave/left_arrow_hover.png",
+			"hover_icon": "dragonsurvival:textures/gui/custom/starfire/left_arrow_hover.png",
 			"icon": "dragonsurvival:textures/gui/custom/stage/starfire/left_arrow_main.png"
 		},
 		"growth_right_arrow": {
@@ -21,10 +21,10 @@
 			"icon": "dragonsurvival:textures/gui/custom/stage/starfire/right_arrow_main.png"
 		},
 		"mana_sprites": {
-			"empty": "dragonsurvival:textures/gui/custom/mana_icons/cave/empty.png",
-			"full": "dragonsurvival:textures/gui/custom/mana_icons/cave/full.png",
-			"recovery": "dragonsurvival:textures/gui/custom/mana_icons/cave/recovery.png",
-			"reserved": "dragonsurvival:textures/gui/custom/mana_icons/cave/reserved.png"
+			"empty": "dragonsurvival:textures/gui/custom/mana_icons/starfire/empty.png",
+			"full": "dragonsurvival:textures/gui/custom/mana_icons/starfire/full.png",
+			"recovery": "dragonsurvival:textures/gui/custom/mana_icons/starfire/recovery.png",
+			"reserved": "dragonsurvival:textures/gui/custom/mana_icons/starfire/reserved.png"
 		},
 		"primary_color": "#CBBF23",
 		"secondary_color": "#FDFFD1"
